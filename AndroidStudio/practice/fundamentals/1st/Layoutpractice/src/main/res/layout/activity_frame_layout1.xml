@@ -13,8 +13,28 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_frame_image"/>
     <!-- TODO: 右上端に寄せた ImageView を配置する -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:src="@drawable/ic_frame_image"/>
     <!-- TODO: 左下端に寄せた ImageView を配置する -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/ic_frame_image"/>
     <!-- TODO: 右下端に寄せた ImageView を配置する -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/ic_frame_image"/>
     <!-- TODO: センタリングした ImageView を配置する -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_frame_image"/>
 </FrameLayout>
 
